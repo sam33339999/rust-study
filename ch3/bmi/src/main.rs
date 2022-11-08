@@ -1,9 +1,6 @@
 use std::io;
 
 fn main() {
-    
-
-    
 
     let mut guess = String::new();
 
@@ -38,7 +35,7 @@ fn main() {
     } else {
         "正常"
     };
-    
+
     println!("計算出來的 bmi 為: {bmi} , 評分為: {score_msg}");
 
 }
